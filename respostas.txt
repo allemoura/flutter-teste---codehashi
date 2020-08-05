@@ -31,16 +31,16 @@ Questão 4:
 		depender de abstrações.
 	b:
 	    Dependency Inversion:
-	        Em situações onde a  abstração da interação entre os módulos 
+	        Em situações onde a abstração da interação entre os módulos 
 	        leva a uma interface simplificada do módulo de nível inferior, 
 	        levando a uma implementação mais simples dele. Ou quando houver 
 	        um conjunto de interfaces que podem ser abstratas e adaptar 
 	        outros módulos a esse conjunto de interfaces permitindo 
 	        fornecer uma interface comum para o sistemas.
 	        
-        Dependency Injection
-            Por exemplo, quando uma classe contém uma variável  que é
-            inicializada pelo construtor dessa classe, diz-se que a classe
-            controla qual implementação dessa variável é usada e controla 
-            sua construção, causando dependência sendo necessário o uso de 
-            alguma das técnicas de injeção de dependência para corrigí-lo.
+            Dependency Injection
+                Por exemplo, quando uma classe contém uma variável  que é
+                inicializada pelo construtor dessa classe, diz-se que a classe
+                controla qual implementação dessa variável é usada e controla 
+                sua construção, causando dependência sendo necessário o uso de 
+                alguma das técnicas de injeção de dependência para corrigí-lo.
