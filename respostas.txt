@@ -1,0 +1,46 @@
+Questão 2:
+	a: 
+		O objeto 'myRect' nunca é instanciado, assim ao tentar setar
+		'width' ou 'height' neste objeto, o programa apresentará erro.
+	b:
+		 A maneira de corrigir seria instanciar este objeto fazendo:
+		    'Rectangle myRect = new Rectangle()'
+		    
+Questão 3:
+	a: methodTwo
+	b: methodFour
+	c: Eles causam erro em tempo de compilação.
+	
+Questão 4:
+	a:
+	    'Dependency Injection' é uma técnica de Inversão de Controle para
+	    fornecer objetos ('dependências') a uma classe por meio do Padrão
+	    de Design de Injeção de Dependência(tradução). Normalmente passando
+	    as dependências por: 
+	        Um construtor; 
+	        Uma propriedade ou campo público; 
+	        Um 'setter' público.
+
+	    Já o 'Dependency Inversion' é uma diretriz de design de software
+	    que se resume a duas recomendações sobre o desacoplamento de uma    
+	    classe de suas dependências concretas :	
+		1 - Os módulos de alto nível não devem depender de módulos de baixo 
+		nível. Ambos devem depender de abstrações.
+		
+		2 - As abstrações não devem depender de detalhes. Os detalhes devem 
+		depender de abstrações.
+	b:
+	    Dependency Inversion:
+	        Em situações onde a  abstração da interação entre os módulos 
+	        leva a uma interface simplificada do módulo de nível inferior, 
+	        levando a uma implementação mais simples dele. Ou quando houver 
+	        um conjunto de interfaces que podem ser abstratas e adaptar 
+	        outros módulos a esse conjunto de interfaces permitindo 
+	        fornecer uma interface comum para o sistemas.
+	        
+        Dependency Injection
+            Por exemplo, quando uma classe contém uma variável  que é
+            inicializada pelo construtor dessa classe, diz-se que a classe
+            controla qual implementação dessa variável é usada e controla 
+            sua construção, causando dependência sendo necessário o uso de 
+            alguma das técnicas de injeção de dependência para corrigí-lo.
